@@ -52,6 +52,16 @@ export default defineConfig({
     ['meta', { name: 'twitter:image', content: 'https://nativescripts-redm.github.io/docs/logo.png' }],
   ],
 
+  // This GitHub Pages build is a mirror: the same markdown is rendered inside
+  // the store at https://nativescripts.com/redm/docs/..., which is the copy we want ranked.
+  // Point every page's canonical there so Google folds this host into it
+  // instead of treating the two as competing duplicates.
+  transformHead({ pageData }) {
+    const path = pageData.relativePath.replace(/(^|\/)index\.md$/, '').replace(/\.md$/, '')
+    const canonical = 'https://nativescripts.com/redm/docs' + (path ? '/' + path : '')
+    return [['link', { rel: 'canonical', href: canonical }]]
+  },
+
   markdown: {
     // Custom slugify mirrors GitHub's anchor algorithm exactly. VitePress's
     // default prepends '_' to slugs starting with a digit (legacy HTML4 rule),
