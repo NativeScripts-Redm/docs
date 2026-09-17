@@ -45,8 +45,7 @@ docs/
 │   ├── bridge.md
 │   └── conventions.md
 └── scripts/
-    ├── ns-lib.md          # synced from NativeScriptsDev/ns-lib/README.md
-    └── ns-vineyard.md      # synced from NativeScriptsDev/ns-vineyard/README.md
+    └── <redm|fivem>/ns-*.md   # each synced from that script's README.md
 ```
 
 ## Why this repo is public

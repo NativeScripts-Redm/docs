@@ -13,10 +13,6 @@ export default defineConfig({
   // Lock the site to dark mode and hide the appearance toggle in the nav.
   appearance: 'force-dark',
 
-  // ns-vineyard is hidden until launch — re-enable by removing this entry
-  // and restoring its sidebar item below.
-  srcExclude: ['scripts/ns-vineyard.md'],
-
   // Synced READMEs may reference repo-relative files (./config.lua, ./sql/install.sql)
   // that don't exist in the docs site context. Don't fail the build for those.
   ignoreDeadLinks: [
@@ -107,7 +103,6 @@ export default defineConfig({
       { text: '🪧 ns-poster', link: '/scripts/redm/ns-poster' },
       { text: '🛒 ns-shops', link: '/scripts/redm/ns-shops' },
       { text: '🌀 ns-teleport', link: '/scripts/redm/ns-teleport' },
-      { text: '🍇 ns-vineyard', link: '/scripts/redm/ns-vineyard' },
     ],
 
     socialLinks: [

@@ -245,8 +245,8 @@ ns-deathcam/
   `SetCamActive` + `RenderScriptCams(true, false, 0, true, true)` on
   every frame. Removing this defeats the purpose — RedM framework
   death scenes call `RenderScriptCams(false)` repeatedly and will
-  steal the camera otherwise. The `p4=true` argument matches the
-  known-working ns-vineyard cam signature.
+  steal the camera otherwise. The `p4=true` argument is the
+  known-working signature for holding a script cam in RedM.
 - **Damage events don't fire for AI in RedM.** All damage accounting
   uses 500 ms HP polling. The final lethal hit is closed out in the
   death branch using the last live `prevHp` reading.

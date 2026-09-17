@@ -27,7 +27,7 @@ You never need to know which framework is running.
 4. Add them to `server.cfg` **in order** (ns-lib first):
    ```cfg
    ensure ns-lib
-   ensure ns-vineyard
+   ensure ns-bounty-hunter
    ```
 5. Apply the SQL and item registrations from each script's README
 6. Restart the server — you should see in the console:
