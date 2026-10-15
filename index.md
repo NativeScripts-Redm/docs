@@ -10,7 +10,7 @@ A cross-framework, modular, production-ready script ecosystem for **FiveM** and 
 
 ## Quick start
 
-1. Grab **ns-lib** (free) from Tebex: [nativescripts.com/package/7428342](https://nativescripts.com/package/7428342)
+1. Grab **ns-lib** (free) from Tebex: [nativescripts.com/redm/package/7428342](https://nativescripts.com/redm/package/7428342)
 2. Pick any ns-* script you want from [nativescripts.com](https://nativescripts.com)
 3. Drop both into `resources/`
 4. Add to `server.cfg` (ns-lib must load **first**):

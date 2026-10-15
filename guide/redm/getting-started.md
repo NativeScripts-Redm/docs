@@ -21,7 +21,7 @@ You never need to know which framework is running.
 
 ## Server setup
 
-1. Download **ns-lib** (free) from Tebex: [nativescripts.com/package/7428342](https://nativescripts.com/package/7428342)
+1. Download **ns-lib** (free) from Tebex: [nativescripts.com/redm/package/7428342](https://nativescripts.com/redm/package/7428342)
 2. Get any ns-* script from the [nativescripts.com](https://nativescripts.com) catalog
 3. Drop both into your `resources/` folder
 4. Add them to `server.cfg` **in order** (ns-lib first):

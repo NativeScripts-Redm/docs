@@ -20,7 +20,7 @@ Cross-framework abstraction layer for RedM resources. One dependency line, then 
 
 ### 1.1 Install
 
-1. Download ns-lib (free) from Tebex: **[nativescripts.com/package/7428342](https://nativescripts.com/package/7428342)**
+1. Download ns-lib (free) from Tebex: **[nativescripts.com/redm/package/7428342](https://nativescripts.com/redm/package/7428342)**
 2. Drop this resource into your `resources/` folder as `ns-lib`.
 3. In `server.cfg`, ensure ns-lib **before** any script that depends on it:
    ```
