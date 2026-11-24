@@ -94,6 +94,7 @@ export default defineConfig({
       // No "RedM Resources" group header — scripts listed flat below Core.
       { text: '🪙 ns-auction-house', link: '/scripts/redm/ns-auction-house' },
       { text: '🎯 ns-bounty-hunter', link: '/scripts/redm/ns-bounty-hunter' },
+      { text: '🎄 ns-christmas', link: '/scripts/redm/ns-christmas' },
       { text: '💀 ns-deathcam', link: '/scripts/redm/ns-deathcam' },
       { text: '🪦 ns-killfeed', link: '/scripts/redm/ns-killfeed' },
       { text: '🎁 ns-kits', link: '/scripts/redm/ns-kits' },
