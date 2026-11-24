@@ -86,7 +86,7 @@ The World tab switches snow across the map for every player. The setting survive
 | `LightsNightOnly` | true | Real light sources only at night |
 | `BlinkMs` / `RainbowMs` | 700 / 1500 | Blink and rainbow speed |
 | `SnowWeather` | `SNOW` | Weather used for map-wide snow |
-| `SnowCoverage` | 3 | Snow on the ground, 0-3 |
+| `SnowCoverage` | 3 | Ground snow type while snow is on: 0 map default, 1 secondary, 2 Christmas, 3 Christmas secondary |
 | `FireworkDelay` / `FireworkCooldown` | 5 / 30 | Fuse and cooldown in seconds |
 
 Messages are in `Config.Messages`.
