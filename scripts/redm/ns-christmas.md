@@ -25,6 +25,8 @@ Decorate any part of the frontier with Christmas props and coloured lights. Admi
 
 New custom props are streamed: after installing or updating, restart the whole server and reconnect (a resource `restart` does not load new stream files).
 
+Do not `restart ns-christmas` while players are online. RedM can crash a client that has seen the custom props once it moves after the restart. Restart the whole server instead.
+
 ### Needs
 
 - `ns-lib` 1.5.0 or newer
@@ -75,6 +77,7 @@ The World tab switches snow across the map for every player. The setting survive
 | `MaxProps` | 3000 | Decorations on the whole server |
 | `MaxLayoutItems` | 150 | Props in one layout, selection or row |
 | `MaxRow` | 20 | Props in one "place a row" |
+| `MaxTextLetters` | 32 | Characters in one light text |
 | `UndoSteps` | 20 | Edits each admin can take back |
 | `ShowFrom` / `ShowUntil` | nil | Season dates, `'MM-DD'` |
 | `RotationStep` | 15 | Mouse wheel turn step in degrees |
