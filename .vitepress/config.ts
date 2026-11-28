@@ -103,6 +103,7 @@ export default defineConfig({
       { text: '🤠 ns-pedrobbery', link: '/scripts/redm/ns-pedrobbery' },
       { text: '🪧 ns-poster', link: '/scripts/redm/ns-poster' },
       { text: '🛒 ns-shops', link: '/scripts/redm/ns-shops' },
+      { text: '🏪 ns-advanced-shop', link: '/scripts/redm/ns-advanced-shop' },
       { text: '🌀 ns-teleport', link: '/scripts/redm/ns-teleport' },
     ],
 
